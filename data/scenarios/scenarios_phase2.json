@@ -1,0 +1,30 @@
+[
+  {
+    "id": "E",
+    "name": "Four-day hybrid with support package",
+    "policy": "Offer a four-day hybrid schedule with manager training, transport support, and a six-week review.",
+    "expected_signals": ["positive", "mixed"],
+    "stakeholders": ["employees", "managers", "clients"]
+  },
+  {
+    "id": "F",
+    "name": "Vendor transition with service safeguards",
+    "policy": "Transfer IT support to a vendor with a measured SLA, knowledge-transfer period, and escalation owner.",
+    "expected_signals": ["mixed", "neutral"],
+    "stakeholders": ["employees", "partners", "clients"]
+  },
+  {
+    "id": "G",
+    "name": "Compensation reduction with retention support",
+    "policy": "Reduce variable compensation temporarily while protecting base salary and funding retention support.",
+    "expected_signals": ["negative", "mixed"],
+    "stakeholders": ["employees", "leadership", "clients"]
+  },
+  {
+    "id": "H",
+    "name": "AI workflow rollout with human review",
+    "policy": "Introduce an AI assistant with training, human approval for sensitive work, and a staged adoption review.",
+    "expected_signals": ["mixed", "positive"],
+    "stakeholders": ["employees", "managers", "clients"]
+  }
+]

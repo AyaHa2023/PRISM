@@ -1,0 +1,8 @@
+[
+  {
+    "scenario_id": "C",
+    "expected_stress": 65.0,
+    "expected_trust": 60.0,
+    "expected_sentiment": "negative"
+  }
+]

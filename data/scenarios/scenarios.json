@@ -1,0 +1,26 @@
+[
+  {
+    "id": "A",
+    "name": "Strict hybrid work model",
+    "policy": "Mandate 3 days in-office per week",
+    "metrics": ["satisfaction", "turnover", "workload", "productivity"]
+  },
+  {
+    "id": "B",
+    "name": "Outsourcing IT support",
+    "policy": "Transfer IT support to a third-party vendor",
+    "metrics": ["resolution_time", "downtime", "cycle_time", "partner_responsiveness"]
+  },
+  {
+    "id": "C",
+    "name": "Mandatory return-to-office",
+    "policy": "4-day in-office mandate (Mon–Thu)",
+    "metrics": ["attrition_risk", "morale", "productivity", "manager_overhead"]
+  },
+  {
+    "id": "D",
+    "name": "Mandatory AI tool rollout",
+    "policy": "Mandate a new AI assistant in daily workflows",
+    "metrics": ["adoption_rate", "time_to_proficiency", "error_rate", "cycle_time"]
+  }
+]

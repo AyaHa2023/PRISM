@@ -1,0 +1,4 @@
+# Optional orchestration layer.
+# Install this file in a separate Python 3.12 environment.
+# The main Prism environment uses Python 3.14 and should not be modified by CrewAI.
+crewai>=0.80.0; python_version < "3.14"
