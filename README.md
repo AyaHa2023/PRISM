@@ -32,22 +32,10 @@ streamlit run src/ui/app.py
 
 ```
 prism/
-├── STUDENT_JOURNAL.md    ← step-by-step thinking (read this first)
 ├── data/seed/            ← example policy memos
 ├── data/scenarios/       ← scenarios A–D from L'homologue PDF
 ├── src/                  ← Python code
-└── docs/references/      ← your PDF summaries (links)
 ```
-
-## Student constraints (honest)
-
-- **No Zep Cloud / Neo4j / Ollama required** for v0.1 — runs offline with rule-based “LLM”.
-- **Not production MiroFish** — that project uses Flask + Vue + OASIS + GraphRAG at scale.
-- **Next steps for you:** plug real LLM (Ollama), richer KG (spaCy), Mesa ticks, Report Agent.
-
-## Transition roadmap
-
-For the full prototype-to-realistic roadmap, see [docs/PRISM_TRANSITION_PLAN.md](docs/PRISM_TRANSITION_PLAN.md).
 
 ## References
 
