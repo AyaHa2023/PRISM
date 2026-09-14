@@ -9,10 +9,7 @@ from .reporting import summarize_result
 
 
 def run_crewai_review(result: SimulationResult, model: str = "ollama/llama3.1:latest") -> dict[str, Any]:
-    """Run the specialist review through CrewAI when the optional package is installed.
-
-    CrewAI is intentionally optional. The native workflow remains the tested default.
-    """
+   
     try:
         from crewai import Agent, Crew, Process, Task
     except ImportError as error:  # pragma: no cover - depends on optional installation
